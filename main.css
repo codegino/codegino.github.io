@@ -566,6 +566,31 @@ a.Checkpoint__btn__7KH6Q {
       color: white; }
   .Certificates__certificate__31nbA .Certificates__url__2caB6 {
     display: none; }
+.LoadingMask__container__3ncDb {
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.LoadingMask__logo__8MvsU {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 5rem;
+  width: 5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  animation: LoadingMask__Rotating__iEFfT 2s infinite; }
+
+@keyframes LoadingMask__Rotating__iEFfT {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
 .ResumePage__container__2nFR7 {
   display: flex;
   flex-direction: row;
